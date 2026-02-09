@@ -14,7 +14,7 @@ app = FastAPI(title="TaskFlow API")
 # Strict CORS configuration for Next.js frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","https://todoapp2-khaki.vercel.app/"],
+    allow_origins=["http://localhost:3000","https://todoapp-ten-sable.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
